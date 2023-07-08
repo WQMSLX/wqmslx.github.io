@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "汪启明的博客",
+  "description": "纸飞机的博客",
   "license": "MIT",
   "type": "module",
   "scripts": {

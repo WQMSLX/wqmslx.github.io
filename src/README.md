@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 博客主页
 heroImage: /logo.svg
-heroText: 汪启明的博客
+heroText: 纸飞机的博客
 heroFullScreen: true
 tagline: 不积跬步，无以至千里
 projects:

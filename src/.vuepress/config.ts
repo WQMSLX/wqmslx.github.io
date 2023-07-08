@@ -5,7 +5,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "汪启明的博客",
+  title: "纸飞机的博客",
   description: "行百里者半九十",
 
   theme,
