@@ -5,7 +5,7 @@ export default navbar([
   '/demo/',
   {
     text: '文档',
-    icon: '/assets/icon/document.svg',
+    icon: 'book',
     prefix: '/docs/',
     activeMatch: '^/docs/$',
     link: '/docs/',
