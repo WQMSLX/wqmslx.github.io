@@ -1,5 +1,5 @@
 Arguments: 
-  E:\develop\nodejs\node.exe C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js init
+  E:\develop\nodejs\node.exe C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add -D sybotan-vuepress-autobar
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\develop\nodejs\;E:\develop\go\bin;E:\develop\RedHat\Podman;E:\develop\mysql-5.7.37-winx64\bin;E:\develop\graalvm-ce-java11-22.1.0\bin;E:\develop\jdk\dragonwell-8.11.12\bin;E:\develop\apache-maven-3.8.6\bin;E:\develop\gradle-7.4.2\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\commonSoftware\hugo;E:\develop\Git\bin;C:\Users\WangQiming\.cargo\bin;E:\develop\python\python3.10.5\Scripts\;E:\develop\python\python3.10.5\;C:\Users\WangQiming\AppData\Local\Microsoft\WindowsApps;E:\develop\Microsoft VS Code\bin;C:\Users\WangQiming\AppData\Roaming\npm;C:\Users\WangQiming\go\bin;E:\develop\Fiddler;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;
@@ -8,23 +8,23 @@ Yarn version:
   1.22.19
 
 Node version: 
-  16.15.1
+  18.16.1
 
 Platform: 
   win32 x64
 
 Trace: 
-  Error: canceled
-      at Interface.<anonymous> (C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:137150:13)
-      at Interface.emit (node:events:527:28)
-      at Interface._ttyWrite (node:readline:1081:16)
-      at ReadStream.onkeypress (node:readline:288:10)
-      at ReadStream.emit (node:events:527:28)
-      at emitKeys (node:internal/readline/utils:358:14)
-      at emitKeys.next (<anonymous>)
-      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
-      at ReadStream.emit (node:events:527:28)
-      at addChunk (node:internal/streams/readable:315:12)
+  Error: https://registry.npm.taobao.org/sybotan-vuepress-autobar: Not found
+      at params.callback [as _callback] (C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at self.callback (C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (C:\Users\WangQiming\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
@@ -45,7 +45,10 @@ npm manifest:
       "vuepress": "2.0.0-beta.64",
       "vuepress-plugin-search-pro": "^2.0.0-beta.230",
       "vuepress-theme-hope": "2.0.0-beta.230"
-    }
+    },
+    "main": "index.js",
+    "repository": "git@github.com:WQMSLX/wqmslx.github.io.git",
+    "author": "wangqiming <1358632259@qq.com>"
   }
 
 yarn manifest: 
