@@ -20,5 +20,5 @@ export default sidebar({
     "intro",
     "slides",
   ],
-  "/docs/":'structure'
+  "/docs/":"structure",
 })
